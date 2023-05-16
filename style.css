@@ -1,0 +1,74 @@
+
+/*tirar as bordas e imagem de fundo */
+body{
+    margin: 0%;
+    background-image: url('fotos/fundo.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*cabeçalho*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #353131;
+    margin: auto;
+    z-index: 9999;
+}
+
+
+
+/*define o tamanho da logo do cabeçalho*/
+header img {
+    width: 100px;
+    margin-left: 10%;
+}
+
+/*tirar a decoração da lista*/
+header ul {
+    color: azure;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+/*edita a posições, colocando em sequencia*/
+header ul li {
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+/*galeria*/
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .gallery img {
+    width: 33.33%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 5px;
+  }
+
+
+
+/*rodapé*/
+footer {
+    background-color: #f1f1f1;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
